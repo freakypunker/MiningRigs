@@ -39,7 +39,7 @@ def check_service():
             while try_count < 4:
                 logger.info("Starting %s ... %d" % (service, try_count))
                 try:
-                    cmd = "%s%s" % (json_data["path"], json_data["service"][service]["cmd"])
+                    cmd = json_data["service"][service]["cmd"]
                     subprocess.call(cmd, shell=True)
                     cps = subprocess.check_output(['ps', '-A']).decode()
                     if service in cps:
