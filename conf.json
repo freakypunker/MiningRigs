@@ -1,5 +1,5 @@
 {
   "service": {
-    "ethdcrminer64": {"cmd": "ethdcrminer64 -epool eu1.ethermine.org:4444 -ewal 0xadb415d34d602d707108f9c36d1f28e2810dbbb8.dragon -epsw x -mport 0"}
+    "ethdcrminer64": {"cmd": "/home/carmine/Documents/Claymores96/ethdcrminer64 -epool eu1.ethermine.org:4444 -ewal 0xadb415d34d602d707108f9c36d1f28e2810dbbb8.dragon -epsw x -mport 0"}
   }
 }
